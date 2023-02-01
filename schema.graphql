@@ -1,0 +1,39 @@
+type DistributionTx @entity {
+
+  id: ID! # extrinsic hash
+
+  from: String! @index
+
+  to: String! @index
+
+  amount: String!
+
+  blockHeight: Int! @index
+
+  timestamp: Date!
+}
+
+type ClaimTx @entity {
+
+  id: ID! # extrinsic hash
+
+  from: String! @index
+
+  to: String! @index
+
+  amount: String!
+
+  blockHeight: Int! @index
+
+  timestamp: Date!
+
+}
+
+type TotalClaim @entity {
+  # record the main account total received from claimers
+  id: ID! # distribution account address
+
+  amount: String!
+
+  blockHeight: Int! @index
+}
