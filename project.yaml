@@ -30,7 +30,7 @@ dataSources:
     # startBlock: 348696  # test
     # startBlock: 8000 # regnet
     # startBlock: 265400  # deploy
-    startBlock: 2390388
+    startBlock: 1604945
     mapping:
       file: ./dist/index.js
       handlers:

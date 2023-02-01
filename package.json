@@ -23,16 +23,16 @@
   "license": "MIT",
   "devDependencies": {
     "@acala-network/type-definitions": "latest",
-    "@polkadot/api": "9.1.1",
-    "@subql/cli": "latest",
-    "@subql/types": "latest",
+    "@polkadot/api": "^9",
+    "@subql/cli": "1.11.0",
+    "@subql/types": "1.7.1",
     "@terra-money/terra.js": "^3.0.8",
     "tslib": "^2.5.0",
     "typescript": "^4.1.3"
   },
   "dependencies": {
     "dotenv": "^14.2.0",
-    "@polkadot/api-augment": "^9.13.4"
+    "@polkadot/api-augment": "^9"
   },
   "exports": {
     "chaintypes": "src/chaintypes.ts"
